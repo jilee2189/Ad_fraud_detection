@@ -1,0 +1,13 @@
+[ 2025-09-10 11:58:59,379 ] 15 root - INFO - Initiate the data ingestion
+[ 2025-09-10 11:59:05,879 ] 17 root - INFO - Data Initiation Completed
+[ 2025-09-10 11:59:05,880 ] 21 root - INFO - Initiate the data transformation
+[ 2025-09-10 11:59:05,880 ] 175 root - INFO - Entered initiate_data_transformation method of DataTransformation class
+[ 2025-09-10 11:59:05,880 ] 177 root - INFO - Starting data transformation
+[ 2025-09-10 12:00:18,874 ] 24 root - INFO - Data Transformation Completed
+[ 2025-09-10 12:00:18,875 ] 27 root - INFO - Model Training stared
+[ 2025-09-10 12:04:55,504 ] 55 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-09-10 12:04:55,507 ] 59 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-09-10 12:04:55,507 ] 55 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-09-10 12:04:55,519 ] 59 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-09-10 12:04:55,519 ] 95 root - INFO - Model trainer artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts\\09_10_2025_11_58_55\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=0.3518324607329843, precision_score=0.21346886912325286, recall_score=1.0), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.20465116279069767, precision_score=0.11859838274932614, recall_score=0.7457627118644068))
+[ 2025-09-10 12:04:55,525 ] 32 root - INFO - Model Training artifact created
